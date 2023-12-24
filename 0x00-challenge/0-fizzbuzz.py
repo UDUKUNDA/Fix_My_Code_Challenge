@@ -30,10 +30,11 @@ def fizzbuzz(n):
 
 if __name__ == '__main__':
     if len(sys.argv) <= 1:
-        print("Missing number")
-        print("Usage: ./0-fizzbuzz.py <number>")
-        print("Example: ./0-fizzbuzz.py 89")
-        sys.exit(1)
+    print("Missing number")
+    print("Usage: ./0-fizzbuzz.py <number>")
+    print("Example: ./0-fizzbuzz.py 15")  # 15 is a multiple of both 3 and 5 for FizzBuzz
+    sys.exit(1)
+
 
     number = int(sys.argv[1])
     fizzbuzz(number)
